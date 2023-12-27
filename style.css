@@ -1,0 +1,81 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: bolder;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5fcad;
+}
+
+#container{
+    background-color: #F0A243;
+    width: 450px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+#number, #numbertwo{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 38px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#inputField{
+   
+    display: flex;
+    justify-content: center;
+
+}
+#bttn{
+   
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    padding: 10px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 3px 10px -4px;
+    cursor: pointer;
+    margin: 10px;
+
+
+
+}
+h2{
+    text-align: start;
+    width: fit-content;
+    
+}
+#scorebox{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+button:hover{
+    background-color: rgb(4, 255, 4);
+}
